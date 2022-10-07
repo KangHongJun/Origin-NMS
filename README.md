@@ -2,10 +2,14 @@
   <h1>Origin-NMS</h1>
   <h4>merge overlapping detect box when use sahi<h4>
 </div>
+<div align="center">
+  <h1>Overview</h1>
+  <h4>sahi 사용시 원본 이미지의 detect box와 슬라이싱된 이미지의 detect box를 nms처리를 하지만
+    오탐박스가 남거나(overlapping) 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.</h4>
+</div>
 
 # 개요
-<h4>sahi 사용시 원본 이미지의 detect box와 슬라이싱된 이미지의 detect box를 nms처리를 하지만
-오탐박스가 남거나(overlapping) 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.</h4>
+
 
 # Result Screenshots
 <div align="center">
