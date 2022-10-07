@@ -13,23 +13,15 @@
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
   <a>Original</a>
   <div width="40%", float = "left">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%"><br>
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
     <a>NMS(yolov5m)</a> 
   </div>
   <div width="40%",float = "right">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="40%"><br>
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
     <a textstyle="bold">Origin-NMS(yolov5m)</a>
   </div>
 </div>
 
-<div style="width:150px; height:150px; border:1px solid red;">
-첫번째 영역:
-여기에 그림이나 글자 또는 광고 등을 넣음
-</div>
-<div style="width:150px; height:150px; border:1px solid green;">
-두번째 영역:
-여기에 그림이나 글자 또는 광고 등을 넣음
-</div>
 
 # USE
 base sahi/sahi-yolox
