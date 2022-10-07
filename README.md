@@ -5,7 +5,8 @@ using postprocess_match_metric IOS
 
 # Result Screenshots
 <div align="center">
-  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%"><figcaption>original</figcaption></figure>
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%">
+  <a> Original</a>
 </div>
 
 <p float="center">
