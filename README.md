@@ -23,7 +23,7 @@
     <h4>Origin-NMS(YOLOv5m)</h4>
   </div>
 </div>
-     [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
+   
  [Introduction to SAHI](https://medium.com/codable/sahi-a-vision-library-for-performing-sliced-inference-on-large-images-small-objects-c8b086af3b80)
 
 # USE
