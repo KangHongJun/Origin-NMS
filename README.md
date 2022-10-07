@@ -22,6 +22,11 @@
   </div>
 </div>
 
+#USE
+base sahi/sahi-yolox
+change sahi/predict.py & sahi/postprocess/combine.py
+
+
 # Reference
 <ul>
   <li>https://github.com/obss/sahi
