@@ -22,9 +22,8 @@
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
     <h4>Origin-NMS(YOLOv5m)</h4>
   </div>
-   [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
-  
 </div>
+     [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
 
 # USE
 setting sahi/sahi-yolox<br>
