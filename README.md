@@ -14,11 +14,11 @@
   <a>Original</a>
   <div width="40%", float = "left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="45%"><br>
-    <a>NMS detect by yolov5m</a> 
+    <a>NMS(yolov5m)</a> 
   </div>
   <div width="40%",float = "left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="45%"><br>
-    <a textstyle="bold">Origin-NMS detect by yolov5m</a>
+    <a textstyle="bold">Origin-NMS(yolov5m)</a>
   </div>
 </div>
 
