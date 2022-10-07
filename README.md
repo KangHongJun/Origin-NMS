@@ -16,7 +16,7 @@
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
     <a>NMS(yolov5m)</a> 
   </div>
-  <div width="40%",float = "right">
+  <div width="40%",float = "left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
     <a textstyle="bold">Origin-NMS(yolov5m)</a>
   </div>
