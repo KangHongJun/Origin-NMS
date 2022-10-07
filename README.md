@@ -23,7 +23,7 @@
 </div>
 
 # USE
-base sahi/sahi-yolox
+setting sahi/sahi-yolox<br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
 # Reference
