@@ -22,6 +22,8 @@
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
     <h4>Origin-NMS(yolov5m)</h4>
   </div>
+  <h4>Result Screenshots - yolox</h4>
+  https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox
 </div>
 
 # USE
