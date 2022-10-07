@@ -6,16 +6,15 @@ merge false detect box when use sahi
   <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%"><figcaption>original</figcaption></figure>
 </p>
 <p float="left">
-  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="50%"><figcaption>original</figcaption></figure>
+  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="50%"><figcaption>NMS - yolov5</figcaption></figure>
 </p>
-
-
-
-
-
 <p float="left">
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="50%">
+  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="50%"><figcaption>Origin-NMS - yolov5m</figcaption></figure>
 </p>
- 
+
+
+
+
+
 
  
