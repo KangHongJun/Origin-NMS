@@ -8,7 +8,7 @@
     오탐박스가 남거나(overlapping) 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.</a>
 </div>
 
-# Result Screenshots
+# Result Screenshots - IOS
 <div align="center">
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
   <a>Original</a>
