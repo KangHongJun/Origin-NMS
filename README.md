@@ -27,8 +27,8 @@
 
 # Reference
 <ul>
-  <li>[https://github.com/obss/sahi]
-  <li>[https://github.com/Resham-Sundar/sahi-yolox]
+  <li>https://github.com/obss/sahi
+  <li>https://github.com/Resham-Sundar/sahi-yolox
 </ul>
     
 
