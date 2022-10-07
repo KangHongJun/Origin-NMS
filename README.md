@@ -9,26 +9,22 @@
 </div>
 
 # Result Screenshots - IOS
-<body>
-  <div align="center">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
-    <a>Original</a>
-    <div width="40%", float = "left">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
-      <a>NMS(yolov5m)</a> 
-    </div>
-    <div width="40%",float = "left">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
-      <a textstyle="bold">Origin-NMS(yolov5m)</a>
-    </div>
+<div align="center">
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
+  <a>Original</a>
+  <div width="40%", float = "left">
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
+    <a>NMS(yolov5m)</a> 
   </div>
-</body>
-
+  <div width="40%",float = "left">
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
+    <a textstyle="bold">Origin-NMS(yolov5m)</a>
+  </div>
+</div>
 
 # USE
 base sahi/sahi-yolox
 change sahi/predict.py & sahi/postprocess/combine.py
-
 
 # Reference
 <ul>
@@ -36,7 +32,6 @@ change sahi/predict.py & sahi/postprocess/combine.py
   <li>https://github.com/Resham-Sundar/sahi-yolox
 </ul>
     
-
 # 과정(2022.9.27 ~ 2022.10.07)
 1. merge detect box & NMS개선 논문 탐색
 2. sahi 내부에 있는 merge알고리즘 사용하여 결과 분석, iou,ios에 대한 이해
