@@ -9,7 +9,7 @@
 </div>
 
 # Result Screenshots - IOS
-<div align="center">
+<div width="100%" align="center">
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
   <a>Original</a>
   <div width="30%", float = "left">
