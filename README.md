@@ -9,7 +9,8 @@ using postprocess_match_metric IOS
   <a>Original</a>
   <p float="left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="45%">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="45%">
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="45%"><br>
+    <a>NMS- yolov5m</a> <a>Origin - NMS - yolov5m</a>
   </p>
 </div>
 
