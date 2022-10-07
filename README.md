@@ -8,7 +8,7 @@
     오탐박스가 남거나(overlapping) 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.</a>
 </div>
 
-<div><h1>Result Screenshots - IOS</h1></div>
+<div><h1>Result Screenshots - YOLOv5m</h1></div>
   
   
 <div align="center">
@@ -16,14 +16,14 @@
   <h4>Original</h4>
   <div width="40%", float = "left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
-    <h4>NMS(yolov5m)</h4> 
+    <h4>NMS(YOLOv5m)</h4> 
   </div>
   <div width="40%",float = "left">
     <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
-    <h4>Origin-NMS(yolov5m)</h4>
+    <h4>Origin-NMS(YOLOv5m)</h4>
   </div>
-  <h4>Result Screenshots - yolox</h4>
-  https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox
+  <h4>[Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)</h4>
+  
 </div>
 
 # USE
