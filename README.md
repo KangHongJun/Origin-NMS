@@ -25,7 +25,12 @@
   </div>
 </div>
 
-#
+# Reference
+<ul>
+  <li>[https://github.com/obss/sahi]
+  <li>[https://github.com/Resham-Sundar/sahi-yolox]
+</ul>
+    
 
 # 과정
 1. merge detect box & NMS개선 논문 탐색
