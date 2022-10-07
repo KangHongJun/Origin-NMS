@@ -38,7 +38,7 @@ change sahi/predict.py & sahi/postprocess/combine.py
     
 # 과정 <h4>(2022.9.27 ~ 2022.10.07)</h4>
 1. merge detect box & NMS개선 논문 탐색
-2. sahi 내부에 있는 merge알고리즘 사용하여 결과 분석, iou,ios에 대한 이해
+2. sahi 내부에 있는 merge알고리즘 사용하여 결과 분석, sahi 소스코드 분석, iou,ios에 대한 이해
 3. nms, ios기반으로 방향성 잡음
 4. nms진행시 오리지널 이미지의 box score우선하여 ios계산하는 방식 진행
 5. 위의 단계에서 ios계산 후 오리지널 이미지의 box데이터 살리는 방식 진행 - origin-nms
