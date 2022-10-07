@@ -22,7 +22,7 @@
   </div>
 </div>
 
-div width="40%", float = "left">
+<div width="40%", float = "left">
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%"><br>
   <a>NMS(yolov5m)</a> 
 </div>
