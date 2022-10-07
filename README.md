@@ -10,8 +10,8 @@ using postprocess_match_metric IOS
 </div>
 
 <p float="center">
-  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="50%"><figcaption>NMS - yolov5m</figcaption></figure>
-  <figure><img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="50%"><figcaption>Origin-NMS - yolov5m</figcaption>
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="50%">
+ <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="50%">
 </p>
 
 
