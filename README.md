@@ -1,7 +1,7 @@
 # Origin-NMS
 merge overlapping detect box when use sahi
 
-#개요
+# 개요
 sahi 사용시 슬라이싱된 이미지에서 detect후 합치기 때문에 detect box가 겹칠 수 밖에 없다. 
 sahi내부에 있는 merge기법인 nms를 사용해도 오탐박스가 남거나 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.
 
