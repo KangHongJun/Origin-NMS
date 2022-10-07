@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Origin-NMS</h1>
-  <h4>merge overlapping detect box when use sahi<h4>
+  <h4>merge overlapping detect box & save true correct box when use sahi<h4>
 </div>
 <div align="center">
   <h1>Overview</h1>
