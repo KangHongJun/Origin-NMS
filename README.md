@@ -1,14 +1,20 @@
 <div align="center">
   <h1>Origin-NMS</h1>
-  <h4>merge overlapping detect box & save true correct box when use sahi<h4>
 </div>
 <div align="center">
   <h1>Overview</h1>
-  <a>sahi 사용시 원본 이미지의 detect box와 슬라이싱된 이미지의 detect box를 nms처리를 하지만<br>
-    오탐박스가 남거나(overlapping) 올바른 detect box까지 삭제되는 경우가 생기기 때문에 그 부분을 개선했다.</a>
+  <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용했고, Sahi가 기본적으로 제공하는 detect box merge알고리즘인 NMS, NMM, GREEDYNMM은 다음과 같이 오탐박스가 남거나, 오리지널 이미지에서 detect한 올바른 박스까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선해가는 과정에 대해 작성해봤다.
+</a>
 </div>
 
 <div><h1>Result Screenshots - YOLOv5m</h1></div>
+
+<p float="left">
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%"> <br>
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%">
+</p>
+
+
   
   
 <div align="center">
