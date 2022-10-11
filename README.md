@@ -22,7 +22,7 @@
   
   <p float="left">
     <div align = "center">
-      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 삭제된 오리지널 box를 살렸다. 다음과 같이 겹치는 박스들이 많이 생긴것을 볼 수 있다.
+      위 사진을 보면 내장된 NMS사용시 box가 많아 사라진 것을 볼 수 있다. 이 때 오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 삭제된 오리지널 box들을 복구했다.
       <br>
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/SaveOriginal_yolo5.png", width="40%"><br>
@@ -34,8 +34,8 @@
   
   <p float="left">
     <div align = "center">
-      오탐박스를 삭제하는 방법으로는 오리지널 데이터가 중점이 되어야 한다고 판단했고, 기존의 방법인 nms진행시 전체 box의 score를 sort하고 NMS를 진행하는 방법을 변형하여
-      오리지널 이미지의 box의 score를 우선적으로 nms를 진행하였다.<br>
+      오탐박스를 삭제하는 방법으로 오리지널 데이터가 중점이 되어야 한다고 판단했고, 기존 nms의 전체 box의 score를 sort하고 최대 score부터 NMS를 진행하는 방법을 변형하여
+      오리지널 이미지의 box의 score를 우선적으로 NMS를 진행하였다.<br>
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_nms_yolo5.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_save_yolo5.png", width="40%"><br>
       [좌 : sahi를 이용한 이미지 detct 후 original box score우선 nms, 우 : 좌측 이미지에서 Original detect box 살림]
