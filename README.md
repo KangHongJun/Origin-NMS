@@ -2,12 +2,12 @@
   <h1>Origin-NMS</h1>
 </div>
 <div align="center">
-  <h1>Overview</h1>
+  <h1>개요</h1>
   <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용했고, Sahi가 기본적으로 제공하는 detect box merge알고리즘인 NMS, NMM, GREEDYNMM은 다음과 같이 오탐박스가 남거나, 오리지널 이미지에서 detect한 올바른 박스까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선해가는 과정에 대해 작성해봤다.
 </a>
 </div>
 
-<div><h1>진행- YOLOv5m</h1></div>
+<div><h2>진행과정</h2></div>
   
 <div align="center">
   <p float="left">
@@ -22,7 +22,7 @@
   
   <p float="left">
     <div align = "center">
-      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 오리지널 box를 살리는 방향으로 진행했다.<br>
+      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 삭제된 오리지널 box를 살렸다.<br>
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/SaveOriginal_yolo5.png", width="40%"><br>
       [좌 : sahi를 이용한 이미지 detct 후 nms, 우 : 좌측 이미지에서 Original detect box 살림]
@@ -46,7 +46,7 @@
    
 [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
     
-# USE
+## USE
 setting sahi/sahi-yolox<br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
