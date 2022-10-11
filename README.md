@@ -11,9 +11,15 @@
   
 <div align="center">
   <p float="left">
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
-</p>
+    <div align = "left", weight="40%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%"><>br
+      we
+    </div>
+    <div>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%"><>br
+      we
+    </div>
+  </p>
   
   
   
