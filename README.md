@@ -65,7 +65,7 @@
 [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
     
 ## USE
-setting sahi/sahi-yolox<br>
+setting [sahi](https://github.com/obss/sahi) & [sahi-yolox](https://github.com/Resham-Sundar/sahi-yolox)   <br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
     
