@@ -9,8 +9,8 @@
 </a>
 <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS.png", width="60%"><br>
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS.png", width="90%"><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS.png", width="60%",height="80%"><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS.png", width="90%", height="80%" ><br>
     </div>
   </p>
 </div>
