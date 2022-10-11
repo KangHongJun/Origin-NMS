@@ -44,7 +44,7 @@
       [좌 : sahi를 이용한 이미지 detct 후 original box score우선 nms, 우 : 좌측 이미지에서 Original detect box 살림]
     </div>
   </p>
-  
+</div>
   
   
    
