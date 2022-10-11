@@ -3,7 +3,7 @@
 </div>
 <div align="center">
   <h1>개요</h1>
-  <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용했고, Sahi가 기본적으로 제공하는 detect box merge알고리즘인 NMS, NMM, GREEDYNMM은 다음과 같이 오탐박스가 남거나, 오리지널 이미지에서 detect한 올바른 박스까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선해가는 과정에 대해 작성해봤다.
+  <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용하는데, 이 방법을 사용하면 겹치는 box가 생기기 때문에 Sahi에서 자체적으로 내장되어 있는 detect box merge 알고리즘인 NMS, NMM, GREEDYNMM을 사용하지만 다음과 같이 겹치는 box가 여전히 남아있거나, 오리지널 이미지에서 detect한 올바른 box까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선한 알고리즘 개발과정이다.
 </a>
 </div>
 
@@ -22,7 +22,8 @@
   
   <p float="left">
     <div align = "center">
-      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 삭제된 오리지널 box를 살렸다.<br>
+      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 삭제된 오리지널 box를 살렸다. 다음과 같이 겹치는 박스들이 많이 생긴것을 볼 수 있다.
+      <br>
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/SaveOriginal_yolo5.png", width="40%"><br>
       [좌 : sahi를 이용한 이미지 detct 후 nms, 우 : 좌측 이미지에서 Original detect box 살림]
@@ -33,7 +34,7 @@
   
   <p float="left">
     <div align = "center">
-      다읕으로 오탐박스를 없앨 방법을 생각했고, 오리지널 데이터가 중점이 되어야 한다고 판단하여 nms진행시 전체 box의 score를 sort하고 NMS를 진행하는것이 아닌
+      오탐박스를 삭제하는 방법으로는 오리지널 데이터가 중점이 되어야 한다고 판단했고, 기존의 방법인 nms진행시 전체 box의 score를 sort하고 NMS를 진행하는 방법을 변형하여
       오리지널 이미지의 box의 score를 우선적으로 nms를 진행하였다.<br>
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_nms_yolo5.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_save_yolo5.png", width="40%"><br>
