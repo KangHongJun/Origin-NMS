@@ -29,6 +29,8 @@
     </div>
   </p>
   
+  
+  
   <p float="left">
     <div align = "center">
       다읕으로 오탐박스를 없앨 방법을 생각했고, 오리지널 데이터가 중점이 되어야 한다고 판단하여 nms진행시 전체 box의 score를 sort하고 NMS를 진행하는것이 아닌<br>
