@@ -12,12 +12,11 @@
 <div align="center">
   <p float="left">
     <div align = "left", weight="40%">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
-    
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%"> <>
     </div>
+  
     <div align = "right", weight="40%">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
-      
     </div>
   </p>
   
