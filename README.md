@@ -10,8 +10,8 @@
 <div><h1>Result Screenshots - YOLOv5m</h1></div>
 
 <p float="left">
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%"> <br>
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%">
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
+  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
 </p>
 
 
