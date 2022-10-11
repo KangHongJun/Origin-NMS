@@ -44,6 +44,18 @@
       [좌 : sahi를 이용한 이미지 detct 후 original box score우선 nms, 우 : 좌측 이미지에서 Original detect box 살림]
     </div>
   </p>
+  
+  <p float="left">
+    <div align = "center">
+      다음으로는 기존 방식인 슬라이싱 이미지의 box와 오리지날 이미지의 box의 데이터를 합쳐서 nms를 진행하는 방법을 변형하여<br>
+      슬라이싱 이미지의 box끼리 기존 nms를 진행하고, 나머지 box와 오리지날 이미지의 box 데이터를 합쳐서 NMS를 진행후 삭제된 오리지널 이미지의 box는 복구하는 방법으로 진행했다.
+      
+      <br>
+       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
+       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", width="40%"><br>
+      [좌 : sahi를 이용한 이미지 detct 후 nms, 우 : 설명한 방법]
+    </div>
+  </p>
 </div>
   
   
