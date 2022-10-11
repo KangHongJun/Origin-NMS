@@ -11,7 +11,7 @@
   
 <div align="center">
   <p float="left">
-    <div align = "left">
+    <div align = "center">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
     </div>
