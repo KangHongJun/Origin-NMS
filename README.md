@@ -8,16 +8,15 @@
 </div>
 
 <div><h1>Result Screenshots - YOLOv5m</h1></div>
-
-<p float="left">
+  
+<div align="center">
+  <p float="left">
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
 </p>
-
-
   
   
-<div align="center">
+  
   <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
   <h4>Original</h4>
   <div width="40%", float = "left">
