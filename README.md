@@ -30,6 +30,8 @@
 setting sahi/sahi-yolox<br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
+    
+<details closed>
 <summary>
 <big><b>코드</b></big>
 </summary>
@@ -39,6 +41,8 @@ change sahi/predict.py & sahi/postprocess/combine.py
 ```console
 pip install sahi
 ```
+  
+</details>
 
 
     
