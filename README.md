@@ -7,13 +7,14 @@
 </a>
 </div>
 
-<div><h1>Result Screenshots - YOLOv5m</h1></div>
+<div><h1>진행- YOLOv5m</h1></div>
   
 <div align="center">
   <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="40%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original_yolo5.jpg", width="40%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
+      [좌 : 오리지널 이미지 detect, 우 : sahi를 이용한 이미지 detct 후 nms]
     </div>
   </p>
   
@@ -178,26 +179,7 @@ def origin_nms(
 </details>
 
 
-    
-# 과정 <h4>(2022.9.27 ~ 2022.10.07)</h4>
-1. merge detect box & NMS개선 논문 탐색
-2. sahi 내부에 있는 merge알고리즘(NMS, NMM, GREEDYNMM) 사용하여 결과 분석, sahi 소스코드 분석, iou,ios에 대한 이해
-3. nms, ios기반으로 방향성 잡음
-4. 대체로 정확도가 높은 오리지널 이미지 detect box도 삭제되어 nms 후 오리지널 박스를 살리는 밯향으로 진행
-5. 오탐박스를 줄이기 위해 nms진행시 오리지널 이미지의 box score우선하여 ios계산하는 방식 진행
-6. 위의 단계에서 박스가 너무 많이 삭제되어 위의 방법을 토대로 오리지널 삭제된 이미지의 box데이터 살리는 방식 진행(origin-nms)
-7. 기존에는 슬라이싱 이미지의 detect box와 오리지널 이미지의 detect box데이터를 합쳐서 nms처리하지만
-   먼저 슬라이싱 이미지의 detect box 데이터만 nms처리 후 소거된 슬라이싱이미지의 detect box 데이터와 오리지널 데이터를 합쳐서 origin-nms진행함
   
-
-
-
-<details closed>
-<summary>
-<big><b>진행과정 이미지</b></big>
-</summary>
-
-</details>
 
 
 
