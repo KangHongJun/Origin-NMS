@@ -12,8 +12,8 @@
 <div align="center">
   <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original_yolo5.jpg", width="40%">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original_yolo5.png", width="40%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%"><br>
       [좌 : 오리지널 이미지 detect, 우 : sahi를 이용한 이미지 detct 후 nms]
     </div>
   </p>
