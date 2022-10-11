@@ -22,25 +22,26 @@
   
   <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
+      오리지널 이미지의 detect box는 신뢰도가 높기 때문에 삭제되면 안된다고 판단하여 오리지널 box를 살리는 방향으로 진행했다.
+       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="40%">
        <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/SaveOriginal_yolo5.png", width="40%"><br>
       [좌 : sahi를 이용한 이미지 detct 후 nms, 우 : 좌측 이미지에서 Original detect box 살림]
     </div>
   </p>
   
+  <p float="left">
+    <div align = "center">
+      다읕으로 오탐박스를 없앨 방법을 생각했고, 오리지널 데이터가 중점이 되어야 한다고 판단하여 nms진행시 전체 box의 score를 sort하고 NMS를 진행하는것이 아닌<br>
+      오리지널 이미지의 box의 score를 우선적으로 nms를 진행하였다.
+      
+       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_nms_yolo5", width="40%">
+       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/OriginalF_save_nms_yolo5.png", width="40%"><br>
+      [좌 : sahi를 이용한 이미지 detct 후 original box score우선 nms, 우 : 좌측 이미지에서 Original detect box 살림]
+    </div>
+  </p>
   
   
-  <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original.jpg", width="50%",style="display:block;"> <br>
-  <h4>Original</h4>
-  <div width="40%", float = "left">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", style="display:inline-block;",  width="40%"><br>
-    <h4>NMS(YOLOv5m)</h4> 
-  </div>
-  <div width="40%",float = "left">
-    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS_yolov5m.png", style="display:inline-block;", width="40%"><br>
-    <h4>Origin-NMS(YOLOv5m)</h4>
-  </div>
-</div>
+  
    
 [Result Screenshots - yolox](https://github.com/KangHongJun/Origin-NMS/tree/main/sahi_yolox)
     
