@@ -7,6 +7,13 @@
     이 방법을 사용하면 겹치는 box가 생기기 때문에 Sahi에서 자체적으로 내장되어 있는 detect box merge 알고리즘인<br>
     NMS, NMM, GREEDYNMM을 사용하지만 아래 사진과 같이 겹치는 box가 여전히 남아있거나, 오리지널 이미지에서 detect한 올바른 box까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선한 알고리즘 개발과정이다.
 </a>
+<p float="left">
+    <div align = "center">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS.png", width="30%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS.png", width="60%"><br>
+      
+    </div>
+  </p>
 </div>
 
 <div><h2>진행과정</h2></div>
