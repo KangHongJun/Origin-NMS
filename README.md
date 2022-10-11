@@ -30,11 +30,17 @@
 setting sahi/sahi-yolox<br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
-# Reference
-<ul>
-  <li>https://github.com/obss/sahi
-  <li>https://github.com/Resham-Sundar/sahi-yolox
-</ul>
+<summary>
+<big><b>코드</b></big>
+</summary>
+
+- Install `sahi` using pip:
+
+```console
+pip install sahi
+```
+
+
     
 # 과정 <h4>(2022.9.27 ~ 2022.10.07)</h4>
 1. merge detect box & NMS개선 논문 탐색
