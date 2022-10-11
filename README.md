@@ -3,7 +3,8 @@
 </div>
 <div align="center">
   <h1>개요</h1>
-  <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용하는데, 이 방법을 사용하면 겹치는 box가 생기기 때문에 Sahi에서 자체적으로 내장되어 있는 detect box merge 알고리즘인 NMS, NMM, GREEDYNMM을 사용하지만 다음과 같이 겹치는 box가 여전히 남아있거나, 오리지널 이미지에서 detect한 올바른 box까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선한 알고리즘 개발과정이다.
+  <a>더 좋은 객체 탐지를 위해 이미지를 분할하여 detect를 하는 sahi를 이용하는데, <br>
+    이 방법을 사용하면 겹치는 box가 생기기 때문에 Sahi에서 자체적으로 내장되어 있는 detect box merge 알고리즘인 NMS, NMM, GREEDYNMM을 사용하지만 다음과 같이 겹치는 box가 여전히 남아있거나, 오리지널 이미지에서 detect한 올바른 box까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선한 알고리즘 개발과정이다.
 </a>
 </div>
 
