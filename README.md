@@ -10,12 +10,9 @@
 
 
 <p float="left">
-    <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="30%",height="80%"><br>
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="50%", height="80%" ><br>
-    </div>
-  </p>
-</div>
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="30%",height="80%"><br>
+    <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="50%", height="80%" ><br>
+</p>
 
 <p float="left">
     <div align = "center">
