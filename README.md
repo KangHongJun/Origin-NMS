@@ -8,17 +8,14 @@
     NMS, NMM, GREEDYNMM을 사용하지만 아래 사진과 같이 겹치는 box가 여전히 남아있거나, 오리지널 이미지에서 detect한 올바른 box까지 삭제하는 아쉬운 모습을 보이기 때문에 그 부분을 개선한 알고리즘 개발과정이다. <br><h4>NMS방식을 변형하여 오리지널 이미지 box score우선하여 IOS연산 후 삭제된 오리지널 데이터를 복구하는 것을 Origin-NMS라 하겠다.</h4>
 </a>
 
-<details closed>
-<summary>
-  <p float="left">
+
+<p float="left">
     <div align = "center">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="60%",height="80%"><br>
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="90%", height="80%" ><br>
     </div>
   </p>
-</summary>
-</details?
-
+</div>
 
 <p float="left">
     <div align = "center">
