@@ -21,6 +21,14 @@
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS.png", width="90%", height="80%" ><br>
     </div>
   </p>
+  
+  <p float="left">
+    <div align = "center">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original_yolo5.png", width="45%">
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS_yolov5m.png", width="45%"><br>
+      [좌 : 오리지널 이미지 detect, 우 : sahi를 이용한 이미지 detect 후 nms]
+    </div>
+  </p>
 </div>
 
 <div><h2>진행과정</h2></div>
