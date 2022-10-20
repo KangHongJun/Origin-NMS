@@ -10,7 +10,7 @@
   
   <p float="left">
     <div align = "left">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="30%"><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="30%">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="50%">
     </div>
   </p>
