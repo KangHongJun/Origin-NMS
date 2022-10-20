@@ -12,11 +12,10 @@
 <summary>
   <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/NMS.png", width="60%",height="80%"><br>
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Origin_NMS.png", width="90%", height="80%" ><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="60%",height="80%"><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="90%", height="80%" ><br>
     </div>
   </p>
-
 </summary>
 </details?
 
