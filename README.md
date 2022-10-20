@@ -11,8 +11,8 @@
 
 <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="60%",height="80%"><br>
-      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="90%", height="80%" ><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/MAIN.png", width="30%",height="80%"><br>
+      <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/onms_FLOWCHAART.png", width="50%", height="80%" ><br>
     </div>
   </p>
 </div>
