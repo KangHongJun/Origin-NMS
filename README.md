@@ -79,7 +79,8 @@ setting [sahi](https://github.com/obss/sahi) & [sahi-yolox](https://github.com/R
 change sahi/predict.py & sahi/postprocess/combine.py
 
 - Origin-NMS(IOS)
-<details close>
+<details closed>
+  
 ```python
 def origin_nms(
     predictions: torch.tensor,
