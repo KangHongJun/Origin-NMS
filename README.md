@@ -22,7 +22,7 @@
 
 <div><h2>진행과정</h2></div>
   
-<div align="center">
+<div align="center">rl
   <p float="left">
     <div align = "center">
       <img src="https://github.com/KangHongJun/Origin-NMS/blob/main/Images/Original_yolo5.png", width="45%">
