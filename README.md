@@ -78,13 +78,15 @@
 setting [sahi](https://github.com/obss/sahi) & [sahi-yolox](https://github.com/Resham-Sundar/sahi-yolox)   <br>
 change sahi/predict.py & sahi/postprocess/combine.py
 
-- Origin-NMS(IOS)
+
 <details closed>
   
+- MSSO-NMS(IOS)
+  
 ```python
-def origin_nms(
+def msso_nms(
     predictions: torch.tensor,
-    match_metric: str = "IOU",
+    match_metric: str = "IOS",
     match_threshold: float = 0.5,
     len_original:int=0,#오리지널 이미지 detect 박스 매개변수 추가
 ):
